@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+    background-color: rebeccapurple;
+    color: white;
+}
+.tictactoe{
+    border: 2px dotted white;
+    height: 550px;;
+}
+.playerInfo input{
+    background-color: white;
+    color: black;
+}
+.tictacbox input{
+    background-color: white;
+    color: black;
+} 

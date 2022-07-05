@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tic-Tac-Toe.css">
+    <script defer src="Tic-Tac-Toe.js"></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="tictactoe">
+        <br>
+        <h1>Tic Tac Toe</h1>
+        <br>
+    <div class="playerInfo">
+        <form action="/action_page.php">
+            <label><h4><u>Please Write Your Name</u></h1></label>
+            <label for="Xname">Player X</label>
+            <input type="text" id="Xname"><br><br>
+            <label for="Oname">Player O</label>
+            <input type="text" id="Oname"><br><br>
+          </form>
+        <br>
+    </div>
+    <div class="tictacbox">
+
+        <input type="text" id="b1" onclick="my_func1(); my_func11()" readonly>
+        <input type="text" id="b2" onclick="my_func2(); my_func11()" readonly>
+        <input type="text" id="b3" onclick="my_func3(); my_func11()" readonly>
+        <br><br>
+        <input type="text" id="b4" onclick="my_func4(); my_func11()" readonly>
+        <input type="text" id="b5" onclick="my_func5(); my_func11()" readonly>
+        <input type="text" id="b6" onclick="my_func6(); my_func11()" readonly>
+        <br><br>
+        <input type="text" id="b7" onclick="my_func7(); my_func11()" readonly>
+        <input type="text" id="b8" onclick="my_func8(); my_func11()" readonly>
+        <input type="text" id="b9" onclick="my_func9(); my_func11()" readonly>
+    </div> 
+    <br><br>
+    <div>
+    <button onclick="my_func10()">Reset</button>
+    <h1 id="result"></h1>
+    </div>
+    </div>
+</body>
+</html>
