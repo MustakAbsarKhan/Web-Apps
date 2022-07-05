@@ -1,9 +1,9 @@
 function getRandom(){
   var num=Math.random();
   var text = "";
-  if(num < 0.7){
+  if(num < 0.5){
     text+= "Head"
-  }else if(num < 0.2){
+  }else if(num < 0.8){
     text+= "Tails"
   }else{
     text+= "Tie"
