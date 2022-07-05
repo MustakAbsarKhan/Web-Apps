@@ -28,7 +28,7 @@ window.addEventListener('load',()=> {
     const {localtime,country,name}= data.location;
 
     //Set DOM Elements from API
-    locationTimezone.textContent = localtime;
+    locationTimezone.textContent = "Local Time: "+localtime;
     temperatureData.textContent = temperature;
     weatherStatus.textContent = weather_descriptions;
     document.getElementById('icon').src= weather_icons;
