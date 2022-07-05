@@ -20,6 +20,10 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+.location{
+    display: flex;
+    align-items: center;
+}
 .Weather-Info{
     flex-direction: column;
     display: flex;
