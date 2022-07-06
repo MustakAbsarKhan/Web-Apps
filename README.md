@@ -1,5 +1,6 @@
 # Web-Apps #Links
-**-> Weather-App - https://mustakabsarkhan.github.io/Web-Apps/Weather-App/ <br>
+**-> Weather-AppV2 - https://mustakabsarkhan.github.io/Web-Apps/Weather-App-V2 <br>
+-> Weather-App - https://mustakabsarkhan.github.io/Web-Apps/Weather-App/ <br>
 -> Tic-Tac-Toe - https://mustakabsarkhan.github.io/Web-Apps/Tic-Tac-Toe/Tic-Tac-Toe/ <br>
 -> Tic-Tac-Toe(Array Based) -  https://mustakabsarkhan.github.io/Web-Apps/Tic-Tac-Toe/Array-Based-Tic-Tac-Toe/ <br>
 -> Standard-Calculator - https://mustakabsarkhan.github.io/Web-Apps/Standard-Calculator/ <br>
