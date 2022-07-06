@@ -15,7 +15,7 @@ window.addEventListener('load',()=> {
         const {region}=locationdata;//getting the region from this api
 
     let params = new URLSearchParams({
-        access_key : '6e6160f56e6b1deb1c0d541e4528b170',
+        access_key : '432202d6e70f4b468d34867d3cefdc73',
         query : region,
         units: 'm'
     })
