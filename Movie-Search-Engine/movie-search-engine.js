@@ -43,7 +43,7 @@ window.addEventListener('load',()=>{
                 //catching the undefined error
                 if(Title===undefined){
                     window.alert("Please Enter a Valid Movie Name");
-                    apiinput(myrandomMovie);
+                    window.location.reload();
                 }
             })
         }
