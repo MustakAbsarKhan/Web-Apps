@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    height: 136vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    color: white;
+    text-align: center;
+}
+
+.moviePoster{
+    display: flex;
+    align-items: center;
+}
+
+.movieposterImage{
+    border:2px solid white;
+}
+
+.searchBoxHolder{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.searchBoxID{
+    height: 44px;
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+    background-color: #e7e7e7 ;
+    color: #757575;
+    border-radius: 2px;
+    box-shadow: 7px 6px 28px 1px rgb(47,150,163);
+}
+
+.searchBox{
+    width:270px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: white;
+    box-shadow: white;
+    margin-right: 3px;
+    margin-top: 2px;
+    animation: blink 1s infinite alternate;
+}
+
+.movieDetails{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.movieTitle{
+    text-decoration:underline;
+}
+.yearofReleaseDiv, .genreDiv, .actorsDiv, .directorsDiv, .plotDiv, .awardDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
