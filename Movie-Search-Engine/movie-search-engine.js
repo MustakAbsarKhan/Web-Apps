@@ -10,6 +10,10 @@ window.addEventListener('load',()=>{
     let plot = document.querySelector('.plot');
     let award = document.querySelector('.award');
     
+    //creating random movie name list
+    let randomMovies = ["The Great Gatsby", "Moana", "Forrest Gump", "Saving Private Ryan","The Shawshank Redemption","The Lord of the Rings: The Return of the King","Pulp Fiction","Fight Club","The Silence of the Lambs","Interstellar","Minions: The Rise Of Gru","Vivo","The Angry Birds Movie 2","Despicable Me","Dragon Ball Super: Super Hero"]
+    let myrandomMovie = randomMovies[Math.floor(Math.random() * randomMovies.length)]
+
     //Defining the input seperately by using function to have default input "The Great Gatsby"
     const apiinput= (input)=>{
         let params = new URLSearchParams({
@@ -39,14 +43,12 @@ window.addEventListener('load',()=>{
                 //catching the undefined error
                 if(Title===undefined){
                     window.alert("Please Enter a Valid Movie Name");
+                    apiinput(myrandomMovie);
                 }
             })
         }
         apiCall()
     }
-    //creating random movie name list
-    let randomMovies = ["The Great Gatsby", "Lucifer", "Forrest Gump", "Saving Private Ryan","The Shawshank Redemption","The Lord of the Rings: The Return of the King","Pulp Fiction","Fight Club","The Matrix","The Silence of the Lambs","Interstellar"]
-    let myrandomMovie = randomMovies[Math.floor(Math.random() * randomMovies.length)]
     //Displaying Default Result
     apiinput(myrandomMovie);
 
