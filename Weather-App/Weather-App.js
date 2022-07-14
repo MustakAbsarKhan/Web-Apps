@@ -19,7 +19,7 @@ window.addEventListener('load',()=> {
         query : region,
         units: 'm'
     })
-    fetch(`https://api.weatherstack.com/current?${params}`).then((response)=>{
+    fetch(`http://api.weatherstack.com/current?${params}`).then((response)=>{
         return response.json();
     }).then((data)=>{
         console.log(data);
